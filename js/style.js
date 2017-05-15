@@ -1,0 +1,19 @@
+/**
+ * Created by dnzx on 2016/7/14.
+ */
+$(function(){
+    $(".topBtn").hover(//Êó±êÐüÍ£Ð§¹û
+        function(){
+            $(this).css({
+                'color':'#00AAEE',
+                'cursor':'pointer'
+            });
+        },
+        function(){
+            $(this).css({
+                'color':'',
+                'cursor':'pointer'
+            });
+        }
+    )
+})

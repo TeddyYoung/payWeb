@@ -1,0 +1,95 @@
+@charset "utf-8";
+.prohero{
+    background: #fff!important;
+    width: 100% !important;
+    top: 0!important;
+    left: 0!important;
+    text-align: right !important;
+    z-index: 2;
+}
+#sec{
+    text-align: center;position: absolute;z-index: 3;left:0;right: 0;background: rgba(0,0,0,0);padding-bottom: 590px;
+}
+.thrBg{
+    background-image: url('../img/thrBg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+.wrapa{
+    color: #fff;
+    width: 950px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+table tbody td, table tbody th{
+    padding: 0rem 1rem 0rem!important;
+}
+.zffont{
+    color: #188AE2;font-size: 30px;
+}
+.forDown{
+    margin-top: 320px;
+}
+
+.forBg{
+    padding: 50px 0;position: relative;background: #fff;width: 1005px;margin: 0 auto;
+}
+.fiveBg{
+    padding: 50px 0 0 0;position: relative;background: #fff;
+}
+.grecolor{
+    color: #909090;
+}
+.marginbottom0{
+    margin-bottom: 0;
+}
+.borderB{
+    border-bottom:0;
+}
+.axd{
+    position: absolute;top: 20%;left: 0;right:0;margin:0 auto;text-align: left;width: 1005px
+}
+.axdW{
+    width: 360px;
+}
+.aboutTea{
+    margin-left: 75px;
+    margin-top: 3px;
+}
+.team{
+    text-indent: 20px;line-height: 24px
+}
+.abteam{
+    width: 1005px;position: absolute;top: 50px;left: 0;right: 0;margin: 0 auto;text-align: -webkit-left;
+}
+.sixBg{
+    background: #f5f5f5;height: 600px;position: relative;text-align: center
+}
+.perTeam{
+    width: 1005px;position: absolute;bottom: 0;left: 0;right: 0;margin: 0 auto;
+}
+.floatL{
+    float:left;
+}
+.floatR{
+    float:right;
+}
+.sevenBg{
+    position:fixed;z-index: 1;clear: both;bottom: 0;display: none;width:100%;background: #fff;
+}
+#sevenBg{
+    height: 590px;width: 1005px;left:0;right: 0; margin: 0 auto;
+}
+.sebt{
+    position: absolute;top:200px;right: 0;width: 1005px;left: 0;margin: 0 auto;text-align: right;
+}
+.addr{
+    position: absolute;bottom: 20px;right:0;width: 1005px;left:0;right: 0;margin:0 auto;text-align: right
+}
+.sevenPic{
+    height: 450px;position: absolute;bottom: 20px ;
+}
+.topTop{
+    position: fixed;bottom: 20px;z-index: 10;right: 20px;cursor: pointer
+}

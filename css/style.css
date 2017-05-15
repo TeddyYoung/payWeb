@@ -1,0 +1,56 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Microsoft Yahei", Tahoma, Helvetica, Arial, sans-serif !important;
+	color:#FFF;
+}
+ ul {
+	list-style: none;
+}
+/*头部样式*/
+.topFixed{
+	position: fixed !important;
+	background: rgba(255,255,255,.1) !important;
+	width: 100% !important;
+	top: 0!important;
+	left: 0!important;
+	text-align: right !important;
+	z-index: 2;
+}
+.topFixed ul li{
+	float: left!important;
+}
+.floatL{
+	float: left!important;
+}
+.topBtn{
+	float: left!important;
+	line-height: 50px!important;
+	padding: 10px 40px!important;
+	color: #000!important;
+	font-size:14px!important;
+}
+.width70{
+	width: 70%!important;
+	overflow: hidden!important;
+}
+.width30{
+	width: 30%!important;
+	overflow: hidden!important;
+}
+.logo{
+	margin-top: 10px!important;
+}
+#logo{
+	height: 50px!important;
+}
+a:hover{
+	color:#0e90d2 !important;
+}
+.topTop{
+	position: fixed;bottom: 20px;z-index: 10;right: 20px;cursor: pointer
+}
+

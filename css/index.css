@@ -1,0 +1,346 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+/* 如果需要前进后退按钮 */
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 10px 16px;
+    display: block
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 10px 16px
+}
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: .2
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #007aff
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* 页面样式开始 */
+p{
+    cursor: pointer;
+}
+.index-text{
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+  vertical-align: middle;
+}
+.button{
+    border:none;
+    background: #00aaee;
+    color:#fff;
+    height:45px;
+    width:180px;
+    font-size:16px;
+    border-radius: 12px;
+    margin-top: 70px;
+    opacity: .7;
+    padding:12px 15px;
+}
+.button:hover{
+    color:#fff;
+    opacity: 1;
+    transform: scale(1.2);
+    transition: .5s;
+}
+.padding15{
+    padding:15px;
+    display: inline-block;
+}
+.textCenter{
+    padding:15px;
+    text-align: center;
+}
+.imgWidth{
+    width: 80%;
+}
+.font22{
+    font-size: 34px;
+    line-height: 30px;
+}
+.font35{
+    font-size:35px;
+}
+.left{
+    display: inline-block;
+    width:25%;
+    float:left;
+    text-align:center;
+    color:#616161;
+
+}
+.left_2{
+    display: inline-block;
+    width:25%;
+    float:right;
+    text-align:center;
+    color:#616161
+
+}
+.font16{
+    font-size: 20px;
+    line-height: 36px;
+}
+.font24{
+    font-size:22px;
+}
+.bg-images {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    background-position: 80% center;
+    -webkit-animation-name: kenburns;
+    animation-name: kenburns;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 25s;
+    animation-duration: 25s;
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.slideshow-image{
+    -webkit-animation-name: kenburns;
+    animation-name: kenburns;
+}
+@-webkit-keyframes kenburns {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    1.5625% {
+        opacity: 1;
+    }
+    23.4375% {
+        opacity: 1;
+    }
+    26.5625% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    98.4375% {
+        opacity: 1;
+        -webkit-transform: scale(1.21176);
+        transform: scale(1.21176);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.two{
+    width:100%;
+    background: url(../img/bg-two.jpg) 50% bottom;
+    background-size:cover;
+    height:100%;
+}
+.main-content{
+     position:relative;
+     top:0%;
+     z-index:99999999;
+     height:auto;
+     width:100%;
+     vertical-align: middle;
+     border-bottom:1px solid #f5f5f5;
+
+ }
+.text-content{
+    position:relative;
+    top:20%;
+    z-index:99999999;
+    height:100%;
+    width:75%;
+    vertical-align: middle;
+    border-bottom:1px solid #f5f5f5;
+}
+.content{
+    display: table-cell;
+    vertical-align:middle ;
+    z-index:99999999;
+    width:75%;
+    padding-top:50px;
+}
+.title{
+    color:#fff;
+}
+.bootom{
+    width:50%;
+    text-align:center;
+    color:#616161;
+    position:absolute;
+    left:25%;
+}
+.view {
+    position: absolute;
+    z-index: 99;
+    top: 15%;
+    right: -5%;
+    float: right;
+    width:50%;
+    margin:0 auto;
+    height: 100%;
+}
+.list-one{
+    position: absolute;
+    z-index: 99;
+    top: 25%;
+    left: 10%;
+    float: left;
+    width:50%;
+    margin:0 auto;
+    height: 100%;
+    color: #616161;
+    text-align: justify;
+}
+.three{
+    background-image: url('../img/bg-three.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index:99999999;
+}
+.four{
+    background-image: url('../img/bg-four.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index:999999999999999;
+}
+.five{
+    background-image: url('../img/bg-five.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index:999999999999;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline!important;
+}
+.img{
+    width:700px;
+}
+/* 适配小屏幕电脑 */
+@media screen and (max-width:1320px) {
+    .imgWidth{
+        width:85%;
+    }
+    .img{
+        width:500px;
+    }
+    .iconWidth{
+        width:100px;
+    }
+    .font16{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .font22{
+        font-size:22px;
+        line-height: 12px;
+    }
+    .text-content{
+        top:15%;
+    }
+    .font24{
+        font-size:14px;
+    }
+    .font35{
+        font-size:24px;
+    }
+    .am-text-xl {
+        font-size: 2.0rem;
+    }
+    .am-padding-top-xl{
+        padding-top:0rem;
+    }
+    .am-text-xxl{
+        font-size:2.0rem;
+    }
+    .am-margin-top-xl{
+        margin-top:0rem;
+    }
+    .am-padding-top{
+        padding-top:.8rem;
+    }
+    .textCenter{
+        text-align: center;
+        padding:0;
+    }
+    .title{
+      color:#fff;
+      font-size:14px;
+    }
+    .button{
+        border: none;
+        background: #00aaee;
+        color: #fff;
+        height: 35px;
+        width: 160px;
+        font-size: 14px;
+        border-radius: 12px;
+        margin-top: 70px;
+        opacity: .7;
+        padding: 0px 15px;
+        line-height: 35px;
+    }
+}
+
+/* 页面样式结束 */
